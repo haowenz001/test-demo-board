@@ -22,27 +22,7 @@
   "branch_lines": [
     {
       "key": "main",
-      "ref": "main",
-      "historical_refs": [
-        {
-          "ref": "feat/jiuwenswarm",
-          "before": "2026-09-27T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "key": "legacy",
-      "ref": "legacy",
-      "historical_refs": [
-        {
-          "ref": "main",
-          "before": "2026-09-27T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "key": "release",
-      "ref": "releases/v0.3.0.beta"
+      "ref": "main"
     }
   ],
   "deployments": {
@@ -50,6 +30,12 @@
       "environment": "production",
       "label": "example",
       "repository": "example/board"
+    },
+    "haowenz001/test-demo": {
+      "environment": "production",
+      "label": "test-demo",
+      "repository": "haowenz001/test-demo-board"
     }
-  }
+  },
+  "label": "test-demo"
 }
